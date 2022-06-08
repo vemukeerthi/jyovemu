@@ -15,7 +15,7 @@ public class LaunchBrowser {
 		driver.manage().window().maximize();
 		driver.get("https://www.vemu.org");
 		driver.findElement(By.xpath("//*[@id=\"nav\"]/li[10]/a")).click();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		driver.findElement(By.name("full_name")).sendKeys("Purushotham");
 		Thread.sleep(2000);
 		driver.findElement(By.name("email_id")).sendKeys("techlearn.india@gmail.com");
